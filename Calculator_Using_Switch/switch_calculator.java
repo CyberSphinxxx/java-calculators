@@ -19,6 +19,10 @@ public class switch_calculator{
         
         System.out.print("Enter a mode of calculation: ");
         String math_mode = scanner.nextLine();
+
+        double first_number = 0;
+        double second_number = 0;
+        double result = 0;
         
         switch (math_mode) {
             case "1":
@@ -27,12 +31,12 @@ public class switch_calculator{
                 System.out.println(separator);
 
                 System.out.print("Enter First Number: ");
-                double first_number = scanner.nextDouble();
+                first_number =scanner.nextDouble();
 
                 System.out.print("Enter Second Number: ");
-                double second_number = scanner.nextDouble();
+                second_number = scanner.nextDouble();
 
-                double result = first_number + second_number;
+                result = first_number + second_number;
 
                 System.out.println(separator);
 
@@ -41,7 +45,28 @@ public class switch_calculator{
                 System.out.println(separator);
                 
                 break;
+ 
+            case "2":
 
+                System.out.println("Math Mode Chosen: Subtraction");
+                System.out.println(separator);
+
+                System.out.print("Enter First Number: ");
+                first_number =scanner.nextDouble();
+
+                System.out.print("Enter Second Number: ");
+                second_number = scanner.nextDouble();
+
+                result = first_number - second_number;
+
+                System.out.println(separator);
+
+                System.out.println(first_number + " - " + second_number + " = " + result);
+
+                System.out.println(separator);
+                
+                break;
+            
             default:
                 System.out.println("INCORRECT MATH MODE!!!");
         }
