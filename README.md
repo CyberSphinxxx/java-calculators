@@ -14,3 +14,32 @@ This repository contains simple calculator programs written in Java. The calcula
 1. **Switch Calculator** (`switch_calculator.java`): Uses a `switch` statement to handle the selection of arithmetic operations.
 
 2. **Else If Calculator** (`Calculator_ElseIf.java`): Uses `else if` statements to handle the selection of arithmetic operations.
+
+## How to Run
+
+### 1. Clone the repository:
+
+```java
+git clone https://github.com/your-username/java-calculator-collection.git
+```
+
+### 2. Navigate to the directory:
+```java
+cd java-calculator-collection
+```
+
+### 3. Compile the Java files:
+```java
+javac switch_calculator.java
+javac Calculator_ElseIf.java
+```
+
+### 4. Run the program:
+   #### For the Switch Calculator:
+   ```java
+   java switch_calculator
+   ```
+   ### For the Else If Calculator:
+   ```java
+   java Calculator_ElseIf
+   ```
