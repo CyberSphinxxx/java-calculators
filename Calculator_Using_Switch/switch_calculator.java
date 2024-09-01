@@ -108,8 +108,10 @@ public class switch_calculator{
                 System.out.println(separator);
                 
                 break;
+
             default:
                 System.out.println("INCORRECT MATH MODE!!!");
         }
+        scanner.close();
     }
 }
