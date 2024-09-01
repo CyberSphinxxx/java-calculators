@@ -43,3 +43,6 @@ javac Calculator_ElseIf.java
    ```java
    java Calculator_ElseIf
    ```
+
+# Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any features or bug fixes you would like to add.
