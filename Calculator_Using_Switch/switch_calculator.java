@@ -6,7 +6,7 @@ public class switch_calculator{
 
         Scanner scanner = new Scanner(System.in);
 
-        String separator = "-------------------------------";
+        String separator = "---------------------------------";
 
         System.out.println(separator);
         System.out.println("Math Modes");
@@ -67,6 +67,26 @@ public class switch_calculator{
                 
                 break;
             
+            case "3":
+
+                System.out.println("Math Mode Chosen: Multiplication");
+                System.out.println(separator);
+
+                System.out.print("Enter First Number: ");
+                first_number =scanner.nextDouble();
+
+                System.out.print("Enter Second Number: ");
+                second_number = scanner.nextDouble();
+
+                result = first_number * second_number;
+
+                System.out.println(separator);
+
+                System.out.println(first_number + " x " + second_number + " = " + result);
+
+                System.out.println(separator);
+                
+                break;
             default:
                 System.out.println("INCORRECT MATH MODE!!!");
         }
