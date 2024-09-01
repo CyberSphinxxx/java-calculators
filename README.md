@@ -8,3 +8,9 @@ This repository contains simple calculator programs written in Java. The calcula
 - **Subtraction**: Subtracts the second number from the first number.
 - **Multiplication**: Multiplies two numbers.
 - **Division**: Divides the first number by the second number. Includes a check to prevent division by zero.
+
+## Programs
+
+1. **Switch Calculator** (`switch_calculator.java`): Uses a `switch` statement to handle the selection of arithmetic operations.
+
+2. **Else If Calculator** (`Calculator_ElseIf.java`): Uses `else if` statements to handle the selection of arithmetic operations.
