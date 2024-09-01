@@ -87,6 +87,27 @@ public class switch_calculator{
                 System.out.println(separator);
                 
                 break;
+
+            case "4":
+
+                System.out.println("Math Mode Chosen: Division");
+                System.out.println(separator);
+
+                System.out.print("Enter First Number: ");
+                first_number =scanner.nextDouble();
+
+                System.out.print("Enter Second Number: ");
+                second_number = scanner.nextDouble();
+
+                result = first_number / second_number;
+
+                System.out.println(separator);
+
+                System.out.println(first_number + " / " + second_number + " = " + result);
+
+                System.out.println(separator);
+                
+                break;
             default:
                 System.out.println("INCORRECT MATH MODE!!!");
         }
