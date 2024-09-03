@@ -32,6 +32,7 @@ cd java-calculator-collection
 ```java
 javac switch_calculator.java
 javac Calculator_ElseIf.java
+javac Calculator_Mini.java
 ```
 
 ### 4. Run the program:
@@ -43,6 +44,9 @@ javac Calculator_ElseIf.java
    ```java
    java Calculator_ElseIf
    ```
-
+   ### For the Mini Calculator
+   ```java
+   java Calculator_Mini
+   ```
 # Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any features or bug fixes you would like to add.
