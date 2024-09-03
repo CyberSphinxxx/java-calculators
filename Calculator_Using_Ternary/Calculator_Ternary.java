@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator_Mini {
+public class Calculator_Using_Ternary {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter first number: ");
