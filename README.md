@@ -15,6 +15,8 @@ This repository contains simple calculator programs written in Java. The calcula
 
 2. **Else If Calculator** (`Calculator_ElseIf.java`): Uses `else if` statements to handle the selection of arithmetic operations.
 
+3. **Ternary Calculator** (`TernaryCalculator.java`): Uses a nested `ternary operator` to perform arithmetic operations in a compact, single-line expression.
+
 ## How to Run
 
 ### 1. Clone the repository:
