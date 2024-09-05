@@ -5,7 +5,11 @@ public class Function_Calculator {
     public static double add(double num1, double num2) {
         return num1 + num2;
     }
-    
+
+    public static double subtract(double num1, double num2) {
+        return num1 - num2;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +28,11 @@ public class Function_Calculator {
             case '+':
                 result = add(num1, num2);
                 break;
-            
+
+            case '-':
+                result = subtract(num1, num2);
+                break;
+
             default:
                 System.out.println("Invalid operator!");
                 return;
