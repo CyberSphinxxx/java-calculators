@@ -22,20 +22,37 @@ public class Function_Calculator {
         return num1 / num2;
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void separator() {
+        System.out.println("-----------------------------------");
+    }
 
-        System.out.print("Enter first number: ");
-        double num1 = scanner.nextDouble();
+    public static void main(String[] args) {
+
+        separator();
+        System.out.println("Math Modes");
+        separator();
+        System.out.println("(+)\tAddition");
+        System.out.println("(-)\tSubtraction");
+        System.out.println("(*)\tMultiplication");
+        System.out.println("(/)\tDivision");
+        separator();
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter an operator (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
 
+        separator();
+
+        System.out.print("Enter first number: ");
+        double num1 = scanner.nextDouble();
+
         System.out.print("Enter second number: ");
         double num2 = scanner.nextDouble();
 
-        double result = 0;
+        separator();
 
+        double result = 0;
+        
         switch (operator) {
             case '+':
                 result = add(num1, num2);
@@ -57,6 +74,8 @@ public class Function_Calculator {
                 System.out.println("Invalid operator!");
                 return;
         }        
+        System.out.println(num1 + " + " + num2 + " = " + result);
         System.out.println("The result is: " + result);
+        separator();
     }
 }
