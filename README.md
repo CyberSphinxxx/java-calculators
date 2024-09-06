@@ -17,7 +17,7 @@ This repository contains simple calculator programs written in Java. The calcula
 
 3. **Ternary Calculator** (`TernaryCalculator.java`): Uses a nested `ternary operator` to perform arithmetic operations in a compact, single-line expression.
 
-5. **Function Calculator**  (`Function_Calculator.java`): Uses functions to handle the selection of arithmetic operations.
+5. **Function Calculator**  (`Function_Calculator.java`): Uses `functions` to handle the selection of arithmetic operations.
 
 ## How to Run
 
