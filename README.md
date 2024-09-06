@@ -53,5 +53,9 @@ javac Function_Calculator.java
    ```java
    java Calculator_Mini
    ```
+   ### For the Function Calculator
+   ```java
+   java Function_Calculator
+   ```
 # Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any features or bug fixes you would like to add.
