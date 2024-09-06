@@ -37,6 +37,7 @@ cd java-calculator-collection
 javac switch_calculator.java
 javac Calculator_ElseIf.java
 javac Calculator_Mini.java
+javac Function_Calculator.java
 ```
 
 ### 4. Run the program:
@@ -48,7 +49,7 @@ javac Calculator_Mini.java
    ```java
    java Calculator_ElseIf
    ```
-   ### For the Mini Calculator
+   ### For the Ternary Calculator
    ```java
    java Calculator_Mini
    ```
