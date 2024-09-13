@@ -40,6 +40,7 @@ javac switch_calculator.java
 javac Calculator_ElseIf.java
 javac Calculator_Mini.java
 javac Function_Calculator.java
+javac Whats_my_birthday.java
 ```
 
 ### 4. Run the program:
@@ -58,6 +59,10 @@ javac Function_Calculator.java
    ### For the Function Calculator
    ```java
    java Function_Calculator
+   ```
+   ### For the Birthday Calculator
+   ```java
+   java Whats_my_birthday
    ```
 # Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any features or bug fixes you would like to add.
