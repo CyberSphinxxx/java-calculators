@@ -19,6 +19,8 @@ This repository contains simple calculator programs written in Java. The calcula
 
 5. **Function Calculator**  (`Function_Calculator.java`): Uses `functions` to handle the selection of arithmetic operations.
 
+7. **Birthday Calculator**  (`Whats_my_birthday.java`): Calculates a person's age and the number of days until their next birthday based on their birth date and the current date.
+
 ## How to Run
 
 ### 1. Clone the repository:
